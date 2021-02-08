@@ -12,7 +12,7 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 const Gifs= () =>{
     const classes =useStyles();  
     const[GIFS, setGIFS]=useState([]);  
-    const[search, setsearch]=useState('welcome');
+    const[search, setsearch]=useState('');
     const[limit, setLimit]=useState(12);
 
 
