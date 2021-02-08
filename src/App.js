@@ -8,7 +8,7 @@ const App = ()=> (
 
 
 
-   <div style={{backgroundColor: "#5F30B3"}}>
+   <div style={{backgroundColor: "#00083B"}}>
 
       
       

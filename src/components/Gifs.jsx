@@ -8,6 +8,7 @@ import { sizing } from '@material-ui/system';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
 
+
 const Gifs= () =>{
     const classes =useStyles();  
     const[GIFS, setGIFS]=useState([]);  
@@ -30,10 +31,11 @@ const Gifs= () =>{
        
         return( 
                 <>
-                        <Grid style={{backgroundColor: "#5F30B3"}}  container justify="center" alignItems="center" >
+                        <Grid container justify="center" alignItems="center" >
                          <Grid className={classes.root} >
-                        <TextField name="search" type="text" style={{backgroundColor: "#91AFFF"}} pattern="[a-zA-Z0-9]*" onChangeCapture={(e)=>setsearch(e.target.value)} className={classes.input} label="Search for a GIF" variant="filled" />
-                       
+                             
+                                <TextField name="search" type="text" style={{backgroundColor: "#800017"}} pattern="[a-zA-Z0-9]*" onChangeCapture={(e)=>setsearch(e.target.value)} className={classes.input} label="Search for a GIF" variant="filled" />
+                            
                          </Grid>   
                         </Grid>         
                          

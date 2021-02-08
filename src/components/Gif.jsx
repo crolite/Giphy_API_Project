@@ -22,9 +22,9 @@ const Gif = ({GIF})=> {
                         <img src={GIF.images.downsized_medium.url} border={1}  onClick={() => setOpen(o => !o)} width="100%" height={300}/>
                         <div>
                            
-                            <Popup open={open} closeOnDocumentClick onClose={closeModal}>
+                            <Popup  open={open} closeOnDocumentClick onClose={closeModal}>
 
-                                <Card border={1} className="modal">
+                                <Card border={1} style={{backgroundColor: "#450061"}} className="modal">
                                 <CardActions>
                                     <Button size="large" onClick={closeModal} ><CloseSharpIcon fontSize="large" /></Button>
                                 </CardActions>
