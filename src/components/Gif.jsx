@@ -24,7 +24,7 @@ const Gif = ({GIF})=> {
                            
                             <Popup  open={open} closeOnDocumentClick onClose={closeModal}>
 
-                                <Card border={1} style={{backgroundColor: "#450061"}} className="modal">
+                                <Card border={1} style={{backgroundColor: "#CDA5D4"}} className="modal">
                                 <CardActions>
                                     <Button size="large" onClick={closeModal} ><CloseSharpIcon fontSize="large" /></Button>
                                 </CardActions>
